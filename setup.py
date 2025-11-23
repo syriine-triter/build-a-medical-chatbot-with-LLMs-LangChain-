@@ -6,5 +6,4 @@ setup(
     author="Syrine Triter",
     author_email="syrinetriter@outlook.com",
     packages=find_packages(),
-    install_requires=[]
 )
