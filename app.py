@@ -38,7 +38,7 @@ def initialize_chatbot():
     
     llm = ChatNVIDIA(
             model="meta/llama-3.1-70b-instruct",
-            api_key="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",
+            api_key=os.getenv('NVIDIA_API_KEY'),
             temperature=0.7,
             max_tokens=1024,
         )
